@@ -7,6 +7,11 @@
   <version>1.0-SNAPSHOT</version>
   <name>ibm-secrets</name>
   <url>http://maven.apache.org</url>
+  <properties>
+	<!-- The secret gets detected when it is in the commetn:  fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1 ...-->
+	<!-- ...but not when it is value inside the tag: -->
+	<customSecret>fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1</customSecret>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

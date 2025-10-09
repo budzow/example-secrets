@@ -12,6 +12,8 @@
 		<customSecret>squ_b4556a16fa2d28519d2451a911d2e073024010bc</customSecret>
 		<tcol>1:wieDoh8nah3aus/0deepheez7ph+och7daix0ophaeM=</tcol>
 		<n>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</n>
+		<ibm-key>fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1</ibm-key>
+		<ikey>fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1</ikey>
 		<sonar.maven.scanAll>true</sonar.maven.scanAll>
 		</properties>
 	<dependencies>

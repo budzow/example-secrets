@@ -15,6 +15,7 @@
 		<ibm-key>fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1</ibm-key>
 		<ikey>fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1</ikey>
 		<!-- ibm-key: fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1 -->
+		<!-- ibm-key fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1 -->
 		<sonar.maven.scanAll>true</sonar.maven.scanAll>
 		</properties>
 	<dependencies>

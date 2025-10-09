@@ -1,23 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>sonar.source.support</groupId>
-  <artifactId>ibm-secrets</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>ibm-secrets</name>
-  <url>http://maven.apache.org</url>
-  <properties>
-	<!-- The secret gets detected when it is in the commetn:  fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1 ...-->
-	<!-- ...but not when it is value inside the tag: -->
-	<customSecret>fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB_1</customSecret>
-  </properties>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sonar.source.support</groupId>
+	<artifactId>example-secrets</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>example-secrets</name>
+	<url>http://maven.apache.org</url>
+		<!-- The secret gets detected when it in the comment and quoted:  "squ_b4556a16fa2d28519d2451a911d2e073024010bc" -->
+		<!-- When there are no quotes it is not deteced:  squ_b4556a16fa2d28519d2451a911d2e073024010bc -->
+		<!-- When it is as value of the tag it is also not detected  --><properties>
+		<customSecret>squ_b4556a16fa2d28519d2451a911d2e073024010bc</customSecret>
+		<tcol>1:wieDoh8nah3aus/0deepheez7ph+och7daix0ophaeM=</tcol>
+		<n>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</n>
+		<sonar.maven.scanAll>true</sonar.maven.scanAll>
+		</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>

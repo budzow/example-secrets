@@ -9,3 +9,4 @@ props.set("ibmkey", "fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB+1");
 props.set("ibmkey1", "fDKU7e_u_EnQgWgDVO4b_ubGqVTa5IYwWEey7lMfEB+1");
 props.set("tcol", "1:wieDoh8nah3aus/0deepheez7ph+och7daix0ophaeM=");
 props.set("nnak", "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");
+props.set("discord_oauth2_token", "i039C7ZUl170kWqDUP2_NWmzv1ULMjyY")

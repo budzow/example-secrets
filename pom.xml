@@ -32,6 +32,21 @@
 		<!-- END Testing secrets:S6337 https://rules.sonarsource.com/secrets/RSPEC-6337/    -->
 		<!-- ______________________________________________________________________________ -->
 		<!-- ______________________________________________________________________________ -->
+		
+		
+		<!-- TP secrets:7604 -->
+		<trend_cloud_one_legacy_api_key>"1:wieDoh8nah3aus/0deepheez7ph+och7daix0ophaeM="</trend_cloud_one_legacy_api_key>
+		<!-- FN secrets:7604-->
+		<trend_cloud_one_legacy_api_key>"1:wieDoh8nah3aus/0deepheez7ph+och7daix0ophaeM="</trend_cloud_one_legacy_api_key>
+		
+		<!-- TP secrets:7603 -->
+		<discord_oauth2_token>"i039C7ZUl170kWqDUP2_NWmzv1ULMjyY"</discord_oauth2_token>
+		<!-- FN secrets:7603-->
+		<discord_oauth2_token>i039C7ZUl170kWqDUP2_NWmzv1ULMjyY</discord_oauth2_token>
+		
+		
+		
+		
 		<sonar.maven.scanAll>true</sonar.maven.scanAll>
 	</properties>
 	<dependencies>
